@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b41d2f4-cbd6-4808-8e2b-96f215af61d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/customer_segmentation_template2.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer_segmentation_template2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmm_cluster_summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gmm_cluster_summary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store_locations.csv" beforeDir="false" afterPath="$PROJECT_DIR$/store_locations.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer_segmentation_template.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
