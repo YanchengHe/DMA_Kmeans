@@ -125,6 +125,11 @@ df_transactions = df_transactions.astype(str)
 df_transactions[['location', 'lat', 'long']].drop_duplicates().merge(t_df, how='left', left_on='location', right_on='store').to_csv('store_locations.csv')
 #pd.concat([df_transactions, t_df], axis=1, join='outer').to_csv('store_locations.csv')
 
+model = KMeans(n_clusters=3, n_init=10)
+model.fit(df_cluster)
+output = pd.DataFrame(model.cluster_centers_)
+output.columns = df_cluster.columns
+output.to_csv('Kmeans_output.csv')
 
 # ---- Bonus code (not part of assignment) ------
 # GMM
